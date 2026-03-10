@@ -1,0 +1,3 @@
+module.exports=[596221,a=>{"use strict";let b=(0,a.i(170106).default)("loader-circle",[["path",{d:"M21 12a9 9 0 1 1-6.219-8.56",key:"13zald"}]]);a.s(["Loader2",()=>b],596221)},397227,a=>{"use strict";var b=a.i(187924),c=a.i(572131),d=a.i(736545),e=a.i(525195),f=a.i(596221);function g({children:a}){let{isAuthenticated:g,isLoading:h}=(0,d.useAuth)(),i=(0,e.useRouter)(),j=(0,e.usePathname)();return((0,c.useEffect)(()=>{h||g||i.push(`/login?redirect=${encodeURIComponent(j)}`)},[h,g,i,j]),h)?(0,b.jsx)("div",{className:"min-h-screen flex items-center justify-center bg-white",children:(0,b.jsx)(f.Loader2,{className:"animate-spin text-[#ee2761]",size:40})}):g?(0,b.jsx)(b.Fragment,{children:a}):null}a.s(["default",()=>g])}];
+
+//# sourceMappingURL=_253c59a1._.js.map
