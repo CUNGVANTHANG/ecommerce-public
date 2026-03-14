@@ -604,6 +604,14 @@
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)/merchantsSettleIn(?:/)?$"
     },
     {
+      "page": "/[locale]/mine/chat",
+      "regex": "^/([^/]+?)/mine/chat(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/mine/chat(?:/)?$"
+    },
+    {
       "page": "/[locale]/mine/collection",
       "regex": "^/([^/]+?)/mine/collection(?:/)?$",
       "routeKeys": {
@@ -771,6 +779,14 @@
         "nxtPlocale": "nxtPlocale"
       },
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)/seller(?:/)?$"
+    },
+    {
+      "page": "/[locale]/seller/chat",
+      "regex": "^/([^/]+?)/seller/chat(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/seller/chat(?:/)?$"
     },
     {
       "page": "/[locale]/seller/dashboard",
