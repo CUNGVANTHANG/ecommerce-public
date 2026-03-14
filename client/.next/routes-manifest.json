@@ -468,6 +468,14 @@
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)/admin/wallet/bonusReview(?:/)?$"
     },
     {
+      "page": "/[locale]/admin/wallet/rechargeAddress",
+      "regex": "^/([^/]+?)/admin/wallet/rechargeAddress(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/admin/wallet/rechargeAddress(?:/)?$"
+    },
+    {
       "page": "/[locale]/admin/wallet/rechargeOrder",
       "regex": "^/([^/]+?)/admin/wallet/rechargeOrder(?:/)?$",
       "routeKeys": {
@@ -891,6 +899,14 @@
         "nxtPlocale": "nxtPlocale"
       },
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)/seller/product\\-management/store\\-products(?:/)?$"
+    },
+    {
+      "page": "/[locale]/seller/product-management/store-review",
+      "regex": "^/([^/]+?)/seller/product\\-management/store\\-review(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/seller/product\\-management/store\\-review(?:/)?$"
     },
     {
       "page": "/[locale]/seller/purchase-history",
