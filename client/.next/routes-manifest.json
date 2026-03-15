@@ -660,6 +660,15 @@
       "namedRegex": "^/(?<nxtPlocale>[^/]+?)/mine/order(?:/)?$"
     },
     {
+      "page": "/[locale]/mine/order/refund/[id]",
+      "regex": "^/([^/]+?)/mine/order/refund/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlocale": "nxtPlocale",
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/(?<nxtPlocale>[^/]+?)/mine/order/refund/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/[locale]/mine/order/[id]",
       "regex": "^/([^/]+?)/mine/order/([^/]+?)(?:/)?$",
       "routeKeys": {

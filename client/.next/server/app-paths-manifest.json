@@ -17,6 +17,7 @@
   "/[locale]/(public)/mine/message/page": "app/[locale]/(public)/mine/message/page.js",
   "/[locale]/(public)/mine/order/[id]/page": "app/[locale]/(public)/mine/order/[id]/page.js",
   "/[locale]/(public)/mine/order/page": "app/[locale]/(public)/mine/order/page.js",
+  "/[locale]/(public)/mine/order/refund/[id]/page": "app/[locale]/(public)/mine/order/refund/[id]/page.js",
   "/[locale]/(public)/mine/settings/address/page": "app/[locale]/(public)/mine/settings/address/page.js",
   "/[locale]/(public)/mine/settings/fund-password/page": "app/[locale]/(public)/mine/settings/fund-password/page.js",
   "/[locale]/(public)/mine/settings/login-password/page": "app/[locale]/(public)/mine/settings/login-password/page.js",
